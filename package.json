@@ -8,7 +8,7 @@
     "headTest": "npm run test -- --headed --browser chrome",
     "mochaReportTest": "npm run test --  --reporter mochawesome",
     "dashboardTest": "npm run test -- --record --key c83caecf-35e8-4d3e-914f-3fbb3e065acf --headed --browser chrome",
-    "dataDrivenTest": "npm run test -- --spec \"cypress/e2e/TestDataDriven.cy.js/\""
+    "dataDrivenTest": "npm run test -- --headed --browser chrome --spec \"cypress/e2e/TestDataDriven.cy.js/\""
   },
   "keywords": [],
   "author": "",
