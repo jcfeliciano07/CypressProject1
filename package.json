@@ -8,7 +8,10 @@
     "headTest": "npm run test -- --headed --browser chrome",
     "mochaReportTest": "npm run test --  --reporter mochawesome",
     "dashboardTest": "npm run test -- --record --key c83caecf-35e8-4d3e-914f-3fbb3e065acf --headed --browser chrome",
-    "dataDrivenTest": "npm run test -- --headed --browser chrome --spec \"cypress/e2e/TestDataDriven.cy.js/\""
+    "dataDrivenTest": "npm run test -- --headed --browser chrome --spec \"cypress/e2e/TestDataDriven.cy.js/\"",
+    "fileuploadtest": "npm run test -- --headed --browser chrome --spec \"cypress/e2e/TestUpload.cy.js/\"",
+    "runSpecificSpecs": "npm run test -- --headed --browser chrome  --spec \"cypress/e2e/TestDataDriven.cy.js,cypress/e2e/TestUpload.cy.js\""
+
   },
   "keywords": [],
   "author": "",
@@ -17,6 +20,7 @@
     "cypress": "^12.7.0"
   },
   "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.3.0",
     "mochawesome-merge": "^4.2.2"
