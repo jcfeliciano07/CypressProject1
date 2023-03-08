@@ -3,7 +3,7 @@
 /// <reference types="Cypress" />
 import 'cypress-file-upload'
 
-describe('File uploads', function () {
+describe('File uploads Test Suite', function () {
 
     it('Single file upload ', function () {
 
